@@ -1,78 +1,103 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# 🐾 Pets – Gestão de Venda e Criação de Animais
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-## About Laravel
+> **Descrição:** Sistema web completo para controlo de venda, criação e gestão de animais de estimação. Ideal para pet shops, criadores profissionais e clínicas veterinárias.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+![Demo do Sistema](./public/assets/demo-pets.png)
+*(Dica: Adiciona um print do dashboard ou da lista de animais)*
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 📌 Sobre o Projecto
 
-## Learning Laravel
+O **Pets** foi desenvolvido para digitalizar e profissionalizar a gestão de criadores e lojas de animais. O sistema permite controlar todo o ciclo de vida do animal, desde o nascimento até à venda, incluindo histórico de saúde e pedigree.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+**Público-alvo:**
+- 🐶 Criadores de Cães e Gatos
+- 🐱 Pet Shops e Lojas de Animais
+- 🏥 Clínicas Veterinárias
+- 🏠 Canis e Gatil
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+**Objectivo:** Centralizar informações genéticas, de saúde e comerciais dos animais em uma plataforma segura e acessível.
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## 🚀 Funcionalidades Principais
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
+| Módulo | Funcionalidades |
+| :--- | :--- |
+| **🐕 Animais** | Cadastro de animais, raça, cor, data de nascimento, sexo. |
+| **🧬 Pedigree** | Registro de pais e ancestrais (Árvore genealógica). |
+| **💉 Saúde** | Controlo de vacinas, vermifugação e histórico veterinário. |
+| **💰 Vendas** | Gestão de vendas, contratos de compra e venda, recibos. |
+| **👥 Clientes** | Base de dados de compradores e interessados. |
+| **📊 Financeiro** | Controlo de entradas, saídas e lucros por animal. |
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🏗️ Arquitectura e Tecnologias
 
-## Code of Conduct
+O sistema segue o padrão **MVC (Model-View-Controller)** do Laravel, garantindo segurança e escalabilidade.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- **Backend:** PHP 8+ | Laravel 9/10/11
+- **Base de Dados:** MySQL 8.0
+- **Frontend:** Blade Templates | Bootstrap 5 / Tailwind CSS
+- **Autenticação:** Laravel Breeze / UI
+- **PDF:** DomPDF (para contratos e pedigrees)
+- **Imagens:** Armazenamento local ou Cloud (S3)
 
-## Security Vulnerabilities
+### 📊 Principais Entidades (Base de Dados)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- **Animals:** Dados principais do animal.
+- **Breeds:** Raças cadastradas.
+- **Owners/Customers:** Proprietários e clientes.
+- **Sales:** Registo de vendas e transações.
+- **HealthRecords:** Histórico de vacinas e consultas.
+- **Pedigree:** Relações de parentesco (Pai, Mãe).
 
-## License
+---
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 📦 Instalação e Configuração
+
+Siga os passos abaixo para rodar o projecto localmente:
+
+### 1. Pré-requisitos
+- PHP >= 8.0
+- Composer instalado
+- MySQL ou MariaDB
+- Servidor Web (Apache/Nginx) ou `php artisan serve`
+
+### 2. Passos de Instalação
+
+```bash
+# 1. Clonar o repositório
+git clone https://github.com/wilsonmateus/pets-gestao.git
+
+# 2. Entrar na pasta
+cd pets-gestao
+
+# 3. Instalar dependências do PHP
+composer install
+
+# 4. Instalar dependências do Frontend (se houver)
+npm install && npm run dev
+
+# 5. Configurar variáveis de ambiente
+cp .env.example .env
+# (Edite o ficheiro .env com os dados da sua base de dados)
+
+# 6. Gerar chave da aplicação
+php artisan key:generate
+
+# 7. Rodar migrations e seeders
+php artisan migrate --seed
+
+# 8. Criar link simbólico para imagens
+php artisan storage:link
+
+# 9. Iniciar o servidor
+php artisan serve
